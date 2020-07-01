@@ -66,8 +66,6 @@ gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 gem "bulma-rails"
 
-gem 'sqlite3', '~> 1.3.6'
- 
 group:development do
 gem 'sqlite3', '~> 1.3.6'
 end
