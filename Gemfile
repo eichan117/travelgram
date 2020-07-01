@@ -66,6 +66,10 @@ gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 gem "bulma-rails"
 
+group :development, :test do
+  gem 'sqlite3'
+end
+
 group :production do
-  gem 'pg', '>= 0.18', '< 2.0'
+  gem 'pg', '0.20.0'
 end
