@@ -1,24 +1,18 @@
-# README
+こんにちは。　ご覧頂きありがとうございます。
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+私は写真撮影と、一人旅が趣味なので写真を投稿できるようなサービスを作りました。
+機能としては、ログイン、新規登録、写真投稿です。
 
-Things you may want to cover:
+Ruby  2.5.1
 
-* Ruby version
+Rails 5.2.4.3
 
-* System dependencies
+主に使用したGemファイル
+devise   ログイン機能を実装する為。
 
-* Configuration
+refile   画像投稿機能を実装する為。
 
-* Database creation
+bulma    デザインを整える為。
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
